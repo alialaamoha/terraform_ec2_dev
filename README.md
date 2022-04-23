@@ -6,18 +6,14 @@ Tired of creating clusters manually just to try something out for a few minutes?
 
 * Terraform installed
 * AWS credentials
-* AWS cli installed on a host to connect to the cluster
-* kubectl installed on a host to deploy to the cluster
+* AWS cli installed on a host 
 
-### Deployment Instructions - EKS
+### Deployment Instructions 
 * Install Terraform
 * Clone this repository
 * Run a ```terraform init``` to grab providers and modules
 * Run ```aws_configure``` and establish your credentials
 * Run a ```terraform_apply``` and wait 10 - 15 minutes
-* Run ```aws eks --region us-east-1 update-kubeconfig --name my-cluster``` to add the context to your kubeconfig
-* Profit
-
 ### Deployment Instructions - EC2 Instances
 * Install Terraform
 * Clone this repository
@@ -27,6 +23,3 @@ Tired of creating clusters manually just to try something out for a few minutes?
 * Run ```aws_configure``` and establish your credentials and create you profile in ```.profile``` folder
 * Run a ```terraform_apply``` and wait 10 - 15 minutes
 * Profit
-
-#### Workers not joining the cluster
-* Ensure the workers are getting public IP addresses
