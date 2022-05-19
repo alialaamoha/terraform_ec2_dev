@@ -1,12 +1,12 @@
 # DEPLOY EC2 - TERRAFORM, and Connect it to your visual code  :space_invader:
 
-Tired of creating clusters manually just to try something out for a few minutes? Then run this.
+Tired of creating devevlopment labs  manually , try something for a few minutes? this for you 
 
 ### Pre-requisites
 
 * Terraform installed
-* AWS credentials
 * AWS cli installed on a host 
+* * AWS credentials
 
 ### Deployment Instructions 
 * Install Terraform
